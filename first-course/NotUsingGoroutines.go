@@ -7,10 +7,9 @@ import (
 
 func main() {
 	start := time.Now()
-	go printSomething()
-	go printSomethingElse()
+	printSomething()
+	printSomethingElse()
 
-	time.Sleep(time.Second * 5)
 	fmt.Println("I'm done")
 	elapsed := time.Since(start)
 	fmt.Printf("The Processes took %s", elapsed)
