@@ -24,3 +24,9 @@ func doSomethingElse() {
 	time.Sleep(1 * time.Second)
 	fmt.Println("I've already print something else")
 }
+
+/*
+Output
+I'm done
+The Processes took 536.7µ
+*/

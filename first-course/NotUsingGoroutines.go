@@ -24,3 +24,14 @@ func printSomethingElse() {
 	time.Sleep(1 * time.Second)
 	fmt.Println("I've already print something else")
 }
+
+/*
+Output
+
+---wait---
+I've already print something
+---wait---
+I've already print something else
+I'm done
+The Processes took 2.0175203s
+*/
